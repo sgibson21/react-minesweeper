@@ -1,0 +1,10 @@
+.image-placeholder {
+    width: 50px;
+    display: inline-block;
+}
+
+.game-status-img {
+    cursor: pointer;
+    vertical-align: middle;
+    padding-right: 1rem;
+}

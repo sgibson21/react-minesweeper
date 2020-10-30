@@ -1,0 +1,57 @@
+.grid {
+    display: table;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    min-width: 20px;
+    height: 20px;
+    background-color: pink;
+    border: 1px solid rgb(250, 250, 250);
+    border-radius: 5px;
+    line-height: 15px;
+    text-align: center;
+    user-select: none;
+}
+
+.cell.open {
+    background-color:rgb(255 225 230);
+}
+
+.cell:not(.open) {
+    cursor: pointer;
+}
+
+.cell:not(.open):hover {
+    background-color: #fbced6;
+}
+
+.mine {
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    display: block;
+    border-radius: 50%;
+}
+
+.flag {
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 8px;
+    height: 8px;
+    display: block;
+    border-left: 8px solid royalblue;
+    border-top: 4px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 4px solid transparent;
+}
